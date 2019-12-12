@@ -1,4 +1,4 @@
-#Lift-the-flap: what, where and when for context reasoning
+# Lift-the-flap: what, where and when for context reasoning
 
 Authors: Mengmi Zhang, Claire Tseng, Karla Montejo, Joseph Kwon, Gabriel Kreiman
 
@@ -15,17 +15,27 @@ Context reasoning is critical in a wide variety of applications where current in
 |:---:|:---:|:---:|:---:|
 | Stimulus | Human Clicks | Clicks predicted by model | Attention predicted by model | 
 
-## Pre-requisite
+## Environment
 
-The code has been successfully tested in Ubuntu 18.04. Only CPU is required. To speed up computation, GPU is highly recommended (11GB GPU memory). 
+The code has been successfully tested in Ubuntu 18.04 with one GPU (NVIDA RTX 2080 Ti). It requires the following:
+- PyTorch = 1.1.0 
+- python = 2.7
+- CUDA = 10.2
+- torchvision = 0.3.0
 
-It requires the deep learning platform PyTorch and python2.7. 
+Dependencies:
+- numpy
+- opencv
+- scipy
+- matplotlib
+- skimage
 
-Refer to [link](http://torch.ch/docs/getting-started.html) for Pytorch installation. 
+Refer to [link](https://pytorch.org/get-started/locally/) for Pytorch installation. 
 
-Refer to [link](http://torch.ch/docs/getting-started.html) for Anaconda installation.  
+Refer to [link](https://www.anaconda.com/distribution/) for Anaconda installation.  
 
-Then excute the following commands in your command window:
+
+
 
 
 
