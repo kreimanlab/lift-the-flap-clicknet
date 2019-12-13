@@ -1,0 +1,992 @@
+2019-07-25 03:18:23,643 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3EG49X351X4AUZNYUBHUR3NUU1EX6T'], 'workerId': [u'A1CUBRUF72F76J'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:21:16 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6572)
+[2019-07-25 03:21:57 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6571)
+[2019-07-25 03:22:13 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6596)
+[2019-07-25 03:22:24 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6573)
+2019-07-25 03:22:28,385 already_started_exp (1008) {'assignmentId': [u'3EG49X351X4AUZNYUBHUR3NUU1EX6T'], 'workerId': [u'A18QLVGAYXCI2Y'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:22:30 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6600)
+[2019-07-25 03:22:47 +0000] [6612] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:22:47 +0000] [6612] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:23:17 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6608)
+[2019-07-25 03:23:22 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6604)
+2019-07-25 03:23:25,093 already_started_exp (1008) {'assignmentId': [u'3X3OR7WPZ2S2YJPX97B40NOYTNV8L5'], 'workerId': [u'A1WEESJY1EB55U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:23:26,703 already_started_exp (1008) {'assignmentId': [u'3TOK3KHVJWA64QNBCUZQE4WXD8U7OY'], 'workerId': [u'A3Q95S8FGLRPQF'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:23:28,907 already_started_exp (1008) {'assignmentId': [u'3X3OR7WPZ2S2YJPX97B40NOYTNV8L5'], 'workerId': [u'A1WEESJY1EB55U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:23:28,917 already_started_exp (1008) {'assignmentId': [u'3X3OR7WPZ2S2YJPX97B40NOYTNV8L5'], 'workerId': [u'A1WEESJY1EB55U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:23:49 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6616)
+[2019-07-25 03:23:54 +0000] [6624] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+2019-07-25 03:23:57,415 already_started_exp (1008) {'assignmentId': [u'3X3OR7WPZ2S2YJPX97B40NOYTNV8L5'], 'workerId': [u'A1WEESJY1EB55U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:23:57,424 already_started_exp (1008) {'assignmentId': [u'3IO1LGZLKCPKFYMQM352B4613S686X'], 'workerId': [u'AQN2VELB89GZ9'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:24:07 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6612)
+[2019-07-25 03:24:08 +0000] [6620] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+2019-07-25 03:24:21,461 already_started_exp (1008) {'assignmentId': [u'3TOK3KHVJWA64QNBCUZQE4WXD8U7OY'], 'workerId': [u'A3Q95S8FGLRPQF'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:24:21,810 already_started_exp (1008) {'assignmentId': [u'3W8CV64QJ5R0QSPHNE2K8RQ2WC49HO'], 'workerId': [u'A2DNCU1H95HCBS'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:24:22,105 already_started_exp (1008) {'assignmentId': [u'3W8CV64QJ5R0QSPHNE2K8RQ2WC49HO'], 'workerId': [u'A2DNCU1H95HCBS'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:24:22,113 already_started_exp (1008) {'assignmentId': [u'3X3OR7WPZ2S2YJPX97B40NOYTNV8L5'], 'workerId': [u'A1WEESJY1EB55U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:24:40 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6620)
+[2019-07-25 03:24:52 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6624)
+2019-07-25 03:24:53,551 already_started_exp (1008) {'assignmentId': [u'3Z7EFSHGNC6ZAGWZ42UXD3F4QNQCX1'], 'workerId': [u'ANUG05IDFTWF'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:24:56 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6628)
+[2019-07-25 03:25:28 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6640)
+[2019-07-25 03:26:03 +0000] [6636] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:26:03 +0000] [6636] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:26:03 +0000] [6636] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:26:04 +0000] [6636] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:26:33 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6632)
+[2019-07-25 03:26:37 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6636)
+[2019-07-25 03:27:29 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6648)
+2019-07-25 03:28:36,357 already_started_exp (1008) {'assignmentId': [u'3VD82FOHKTGCG7I73B71UQOBEJLOC8'], 'workerId': [u'A3AG3WP77JFG1T'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:28:39,978 already_started_exp (1008) {'assignmentId': [u'3Z9WI9EOZ2GK7O88RBT9Y04I76GKHT'], 'workerId': [u'APHMJQQFW0U5S'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:28:40,083 already_started_exp (1008) {'assignmentId': [u'3TOK3KHVJWA64QNBCUZQE4WXD8U7OY'], 'workerId': [u'A11C5BFIVGFAAY'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:28:54,925 already_started_exp (1008) {'assignmentId': [u'3A7Y0R2P2RGMIU25EUBJ07SZG7ZJXM'], 'workerId': [u'A1KLCCM1EFOFSX'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:28:58,759 already_started_exp (1008) {'assignmentId': [u'3Z9WI9EOZ2GK7O88RBT9Y04I76GKHT'], 'workerId': [u'APHMJQQFW0U5S'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:29:02,172 already_started_exp (1008) {'assignmentId': [u'3VD82FOHKTGCG7I73B71UQOBEJLOC8'], 'workerId': [u'A3AG3WP77JFG1T'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:29:35 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6644)
+[2019-07-25 03:31:18 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6652)
+[2019-07-25 03:31:30 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6656)
+2019-07-25 03:31:31,557 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3TS1AR6UQT6CYDAIDRG0RANJL747FD'], 'workerId': [u'A1X53DM4NR6P07'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:31:48,068 already_started_exp (1008) {'assignmentId': [u'39O5D9O87WKNUIPLKDN96NQ0JSPC31'], 'workerId': [u'A1A6UVH1CCP8CD'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:31:59,536 already_started_exp (1008) {'assignmentId': [u'3SUWZRL0M151OZWHZ6R23E2NEV56EV'], 'workerId': [u'APJRAU3Y25WYZ'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:32:12,294 already_started_exp (1008) {'assignmentId': [u'30BUDKLTXGN55VW3UNHXB8ONI0T5ED'], 'workerId': [u'A3ICCJJJP3CX55'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:32:24 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6743)
+2019-07-25 03:32:41,044 already_started_exp (1008) {'assignmentId': [u'3PEIJLRY6WL8OE24LTUYPXM7I38XWV'], 'workerId': [u'A3HTLXAPOBCVVO'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:32:41 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6756)
+[2019-07-25 03:33:17 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6789)
+[2019-07-25 03:33:32 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6793)
+2019-07-25 03:34:40,601 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/user_utils.py", line 23, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 449, in start_exp
+    db_session.commit()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1027, in commit
+    self.transaction.commit()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 494, in commit
+    self._prepare_impl()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 473, in _prepare_impl
+    self.session.flush()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2459, in flush
+    self._flush(objects)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2597, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 2557, in _flush
+    flush_context.execute()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1084, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: expF_click.uniqueid
+[SQL: INSERT INTO "expF_click" (uniqueid, assignmentid, workerid, hitid, ipaddress, browser, platform, language, cond, counterbalance, codeversion, beginhit, beginexp, endhit, bonus, status, mode, datastring) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('A174UGURZYYCWC:3634BBTX0RM9NXREWIKXIZDSZNEFIF', u'3634BBTX0RM9NXREWIKXIZDSZNEFIF', u'A174UGURZYYCWC', u'34O39PNDK80UHVKNR1N8OHRC428RBX', '67.160.207.85', 'firefox', 'windows', 'UNKNOWN', 0, 0, '1.0', '2019-07-25 03:34:40.600092', None, None, 0.0, 1, u'live', None)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+[2019-07-25 03:36:33 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6797)
+[2019-07-25 03:37:21 +0000] [6801] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:37:32 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6805)
+[2019-07-25 03:38:04 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6860)
+[2019-07-25 03:38:05 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6667)
+2019-07-25 03:38:11,438 already_started_exp (1008) {'assignmentId': [u'37XITHEISZ1FDKANV3O5OLTGP66RCL'], 'workerId': [u'AR5M3HHTQV9QY'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:39:39,649 already_started_exp (1008) {'assignmentId': [u'3TXMY6UCAHGF1JVNIOZ5JVJBTK4QCJ'], 'workerId': [u'A17YXHQ66LPSRN'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:39:52,133 already_started_exp (1008) {'assignmentId': [u'3TXMY6UCAHGF1JVNIOZ5JVJBTK4QCJ'], 'workerId': [u'A17YXHQ66LPSRN'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:40:22,241 already_started_exp (1008) {'assignmentId': [u'3WRFBPLXRDG6LMMC93WNMYKCIW4N3V'], 'workerId': [u'AQ4QO35UZSXIC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:41:14 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6901)
+[2019-07-25 03:41:41 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6897)
+[2019-07-25 03:42:11 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6919)
+[2019-07-25 03:43:47 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6923)
+[2019-07-25 03:44:20 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6933)
+[2019-07-25 03:44:21 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6801)
+[2019-07-25 03:44:21 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6927)
+2019-07-25 03:44:26,675 already_started_exp (1008) {'assignmentId': [u'32Z9ZLUT1OC3XFTNP3L25HLRRBRHOB'], 'workerId': [u'A1O9PAK6THJ9Y7'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:44:26,674 already_started_exp (1008) {'assignmentId': [u'3MAOD8E57T2I1KTQTS3BTE9GPR6NXW'], 'workerId': [u'A2SJMEH8HGHL3H'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:44:55 +0000] [6952] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    req = six.next(parser)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 181, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 54, in __init__
+    unused = self.parse(self.unreader)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 230, in parse
+    self.headers = self.parse_headers(data[:idx])
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/gunicorn/http/message.py", line 74, in parse_headers
+    remote_addr = self.unreader.sock.getpeername()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 107] Transport endpoint is not connected
+[2019-07-25 03:44:56 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6953)
+2019-07-25 03:44:58,337 already_started_exp (1008) {'assignmentId': [u'3E13VNJ1NQNIXIX6PJ5CTX9YYDY1I3'], 'workerId': [u'A2P5FT77HV12PP'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:45:04,855 already_started_exp (1008) {'assignmentId': [u'3MAOD8E57T2I1KTQTS3BTE9GPR6NXW'], 'workerId': [u'A2SJMEH8HGHL3H'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:45:04,867 already_started_exp (1008) {'assignmentId': [u'3MAOD8E57T2I1KTQTS3BTE9GPR6NXW'], 'workerId': [u'A2SJMEH8HGHL3H'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:45:27 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6948)
+[2019-07-25 03:45:35 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6960)
+[2019-07-25 03:45:44 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6952)
+[2019-07-25 03:46:05 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6964)
+[2019-07-25 03:46:51 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6968)
+[2019-07-25 03:47:17 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6976)
+[2019-07-25 03:47:40 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6980)
+[2019-07-25 03:48:16 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6972)
+2019-07-25 03:48:17,057 already_started_exp (1008) {'assignmentId': [u'3MAOD8E57T2I1KTQTS3BTE9GPR5NXV'], 'workerId': [u'A2BNKLTYKMRUHG'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:49:22 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6984)
+[2019-07-25 03:50:26 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6992)
+[2019-07-25 03:50:30 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:6988)
+[2019-07-25 03:50:31 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7080)
+[2019-07-25 03:50:58 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7097)
+[2019-07-25 03:51:01 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7101)
+[2019-07-25 03:51:02 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7105)
+[2019-07-25 03:52:09 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7113)
+2019-07-25 03:52:10,140 already_started_exp (1008) {'assignmentId': [u'34T446B1C36RDQQO1Q5Q4PSTGG60CV'], 'workerId': [u'A22CN9X0JP1HM4'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:53:33 +0000] [6567] [CRITICAL] WORKER TIMEOUT (pid:7109)
+2019-07-25 03:55:41,790 already_started_exp (1008) {'assignmentId': [u'3MMN5BL1W2W0341CX2HN9JVCD6WM3W'], 'workerId': [u'A83GJEN0ZGXPX'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:55:50,607 already_started_exp (1008) {'assignmentId': [u'31HQ4X3T3V2KH346N5H9HEOZ5H3SLQ'], 'workerId': [u'A3UC9N3EEE6733'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:55:58,259 already_started_exp (1008) {'assignmentId': [u'3DIP6YHAPFKOSDF5SLO0NSYEKQW8EK'], 'workerId': [u'A37MPHPHMGWFQB'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:56:18,371 already_started_exp (1008) {'assignmentId': [u'3CPLWGV3MRRS0OBSQCXXDBNYIOFN9D'], 'workerId': [u'A29O21ZWB1KN07'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:57:16,069 already_started_exp (1008) {'assignmentId': [u'3ZPBJO59KSTCTI2YZU7MUN9SNXJHDD'], 'workerId': [u'A1N53V41FMCR7Q'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:57:32,907 already_started_exp (1008) {'assignmentId': [u'3ZPBJO59KSTCTI2YZU7MUN9SNXJHDD'], 'workerId': [u'A1N53V41FMCR7Q'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:57:50,964 already_started_exp (1008) {'assignmentId': [u'3U4J9857OH3MLWY28PU48KWY69BB7Y'], 'workerId': [u'A3HH7T31PFH49C'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:57:56,151 already_started_exp (1008) {'assignmentId': [u'3PQ8K71NH0CZLOR89E6SN0EIPZXAAU'], 'workerId': [u'A31AYP9KU02D9M'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 03:57:58,676 already_started_exp (1008) {'assignmentId': [u'3X4JMASXCP183LYINQ9VT5MBYV80BQ'], 'workerId': [u'ALDKZL219V8EW'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 03:58:04 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7784)
+[2019-07-25 03:58:29 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7782)
+[2019-07-25 03:58:39 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7783)
+2019-07-25 04:00:00,947 already_started_exp (1008) {'assignmentId': [u'3KYQYYSHYYZMLZOL372CEW6TZJYDOY'], 'workerId': [u'AB41JLXTMEFS4'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 04:01:13,666 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:01:39 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7824)
+[2019-07-25 04:01:43 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7828)
+2019-07-25 04:02:02,851 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 04:02:13,665 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:02:44 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7836)
+2019-07-25 04:02:51,157 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 04:02:54,568 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 04:03:01,424 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:03:17 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7840)
+2019-07-25 04:03:25,484 already_started_exp (1008) {'assignmentId': [u'3KIBXJ1WD8MUZ5UVVOOZI91JJSWKOJ'], 'workerId': [u'A2ALZGXEZFS8LC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:03:56 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7848)
+[2019-07-25 04:06:32 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7844)
+[2019-07-25 04:06:39 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7852)
+[2019-07-25 04:08:41 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7856)
+[2019-07-25 04:15:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7832)
+[2019-07-25 04:15:38 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7864)
+[2019-07-25 04:17:12 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7860)
+2019-07-25 04:17:47,041 already_started_exp (1008) {'assignmentId': [u'3HUTX6F6VXFZIPQ56IIVIDFP2SAO21'], 'workerId': [u'A1EAR8424WFLGO'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:17:47 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7881)
+2019-07-25 04:18:03,630 already_started_exp (1008) {'assignmentId': [u'3HUTX6F6VXFZIPQ56IIVIDFP2SAO21'], 'workerId': [u'A1EAR8424WFLGO'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 04:19:33 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7896)
+[2019-07-25 04:29:01 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7885)
+[2019-07-25 04:35:01 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:7892)
+[2019-07-25 05:17:55 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8008)
+[2019-07-25 05:17:58 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8098)
+2019-07-25 05:27:12,833 already_started_exp (1008) {'assignmentId': [u'33ISQZVXPSEB7IL4D6YAZQUUP53CC0'], 'workerId': [u'A823TE3Y6RU0L'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 05:31:01,349 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3HVVDCPGTHK5W2OKVKBPLRMHGFMTY9'], 'workerId': [u'A34LKH8613I051'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 05:38:42,330 already_started_exp (1008) {'assignmentId': [u'3HVVDCPGTHK5W2OKVKBPLRMHGFMTY9'], 'workerId': [u'A34LKH8613I051'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 05:38:53,852 already_started_exp (1008) {'assignmentId': [u'3HVVDCPGTHK5W2OKVKBPLRMHGFMTY9'], 'workerId': [u'A34LKH8613I051'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 05:43:48 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8286)
+[2019-07-25 05:45:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8502)
+[2019-07-25 05:45:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8102)
+[2019-07-25 05:45:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8282)
+[2019-07-25 05:46:09 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8506)
+[2019-07-25 05:46:09 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8507)
+[2019-07-25 05:46:09 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8508)
+2019-07-25 05:52:56,084 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3GGAI1SQEYQOG4XVQVSO2MZ6JJ6CMH'], 'workerId': [u'A2SEOQ120NFWSW'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 05:53:14 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8518)
+[2019-07-25 05:53:40 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8520)
+[2019-07-25 06:01:45 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8536)
+[2019-07-25 06:03:37 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8540)
+[2019-07-25 06:04:45 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8561)
+[2019-07-25 06:04:53 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8557)
+[2019-07-25 06:05:16 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8565)
+[2019-07-25 06:05:23 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8519)
+[2019-07-25 06:05:34 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8569)
+[2019-07-25 06:05:52 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8573)
+[2019-07-25 06:05:55 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8577)
+[2019-07-25 06:06:15 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8581)
+2019-07-25 06:06:17,311 already_started_exp (1008) {'assignmentId': [u'3AAPLD8UCF9JA7YVLK71ZRREQJTHTI'], 'workerId': [u'A3E6HPXTP1ZCV6'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:06:23 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8585)
+[2019-07-25 06:06:28 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8589)
+[2019-07-25 06:06:49 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8593)
+[2019-07-25 06:06:54 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8597)
+[2019-07-25 06:07:00 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8601)
+[2019-07-25 06:07:26 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8609)
+[2019-07-25 06:07:26 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8605)
+[2019-07-25 06:07:31 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8613)
+[2019-07-25 06:07:57 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8617)
+[2019-07-25 06:07:58 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8618)
+2019-07-25 06:08:04,563 already_started_exp (1008) {'assignmentId': [u'3AAPLD8UCF9JA7YVLK71ZRREQJTHTI'], 'workerId': [u'A3E6HPXTP1ZCV6'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:08:05 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8625)
+[2019-07-25 06:08:40 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8629)
+[2019-07-25 06:08:40 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8637)
+2019-07-25 06:08:42,012 already_started_exp (1008) {'assignmentId': [u'3H7XDTSHKFJX2S7EWJUU1BMCFDWGW6'], 'workerId': [u'A16E8D19L0Z3AH'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:08:47 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8633)
+[2019-07-25 06:09:12 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8641)
+[2019-07-25 06:09:12 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8642)
+[2019-07-25 06:09:27 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8649)
+2019-07-25 06:09:27,911 already_started_exp (1008) {'assignmentId': [u'3N1FSUEFL8SIH6E3KNN30Y0OIS94DQ'], 'workerId': [u'A2V68VOW02OWI1'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 06:09:34,893 already_started_exp (1008) {'assignmentId': [u'3H7XDTSHKFJX2S7EWJUU1BMCFDWGW6'], 'workerId': [u'A16E8D19L0Z3AH'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:09:44 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8657)
+[2019-07-25 06:09:44 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8658)
+[2019-07-25 06:10:28 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8670)
+[2019-07-25 06:12:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8665)
+[2019-07-25 06:12:56 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8669)
+[2019-07-25 06:13:08 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8677)
+[2019-07-25 06:14:15 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8685)
+[2019-07-25 06:14:52 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8717)
+[2019-07-25 06:15:18 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8681)
+[2019-07-25 06:15:25 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8689)
+[2019-07-25 06:15:30 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8759)
+[2019-07-25 06:16:19 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8789)
+2019-07-25 06:16:23,163 already_started_exp (1008) {'assignmentId': [u'39JEC7537XT76RR44NTFPIIJAC4VC3'], 'workerId': [u'ABMR2ZDA8OQ3V'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 06:16:45,783 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3E7TUJ2EGFEJECKF1IJUH6B44KZD97'], 'workerId': [u'A3TS2NCBAB9L6V'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:16:53 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8807)
+2019-07-25 06:20:58,013 already_started_exp (1008) {'assignmentId': [u'3QUO65DNQXG821Z7P2S1OWAHLJFOU5'], 'workerId': [u'A3UQ814LD79TYI'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:21:28 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8801)
+[2019-07-25 06:22:35 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8811)
+[2019-07-25 06:23:41 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8837)
+[2019-07-25 06:24:55 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8815)
+[2019-07-25 06:26:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8833)
+[2019-07-25 06:26:45 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8845)
+[2019-07-25 06:27:02 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8841)
+[2019-07-25 06:32:34 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8894)
+2019-07-25 06:32:50,554 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3R08VXYT7FNE9ZWD3GQ0VY9JGAJW7P'], 'workerId': [u'A3L45D9QJDPN8V'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:34:59 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9035)
+[2019-07-25 06:42:42 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9039)
+[2019-07-25 06:43:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8898)
+[2019-07-25 06:44:07 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9043)
+[2019-07-25 06:45:58 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9062)
+[2019-07-25 06:46:22 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9058)
+2019-07-25 06:48:28,554 already_started_exp (1008) {'assignmentId': [u'3XUHV3NRVNQHP5N5KOP3WBL0AGM5HU'], 'workerId': [u'AW9V44YSOJRZ7'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 06:48:54,736 already_started_exp (1008) {'assignmentId': [u'3XUHV3NRVNQHP5N5KOP3WBL0AGM5HU'], 'workerId': [u'AW9V44YSOJRZ7'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:48:59 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9070)
+[2019-07-25 06:49:25 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9066)
+2019-07-25 06:50:52,793 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3KYQYYSHYYZMLZOL372CEW6TZJQOD1'], 'workerId': [u'A3P027SM8QINCK'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 06:53:12 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9078)
+[2019-07-25 07:02:23 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9074)
+2019-07-25 07:03:12,220 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'39OWYR0EPNJVDX6J00604N7GP66YFY'], 'workerId': [u'A2X4Q8VP9TEPVC'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 07:04:51 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9082)
+[2019-07-25 07:12:02 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:8890)
+[2019-07-25 07:13:02 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9090)
+[2019-07-25 07:18:30 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9096)
+2019-07-25 07:31:35,143 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3STRJBFXOZJACXZ3R5AYCJ76I19KT3'], 'workerId': [u'A2ZFU8SZW3KF0M'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 07:59:26 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9113)
+2019-07-25 08:20:54,423 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'31Q0U3WYDS7L8YGA6S1F28JPKYS17F'], 'workerId': [u'A2TD4A59NSRLBF'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 08:40:56,545 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'36AHBNMV1U4YFDSN9UBAGN4VDUDYDC'], 'workerId': [u'A3MUO0SJM3DUXX'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 08:42:08,536 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'36AHBNMV1U4YFDSN9UBAGN4VDUDYDC'], 'workerId': [u'A3MUO0SJM3DUXX'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 09:02:18,925 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'39JEC7537XT76RR44NTFPIIJAC7CVN'], 'workerId': [u'A9EQ4FWCUQVBL'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 09:12:26,460 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'31Q0U3WYDS7L8YGA6S1F28JPKYS17F'], 'workerId': [u'A2TD4A59NSRLBF'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 09:40:45 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9154)
+2019-07-25 09:45:29,976 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'32VNZTT0AAWCIGX82OIN5NHSXVNR4A'], 'workerId': [u'A2A028LRDJB7ZB'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 10:56:14,363 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3KV0LJBBH5DSM6ME8SIJRHYSJLLMRB'], 'workerId': [u'A3AELT3Y5E6X7U'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 11:54:45,520 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3WQ3B2KGEB88AAJ0J9DV7A5L3PTB1N'], 'workerId': [u'A2TB3JFU5K3I89'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 12:11:24,916 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3VHP9MDGRQCIAU5E48OB7WFXMKFCFZ'], 'workerId': [u'AM0QVBV8L6QCJ'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 12:36:22 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9226)
+2019-07-25 12:47:42,323 already_started_exp (1008) {'assignmentId': [u'3M0BCWMB8YO1BBZ3GX2G00VFZ23BWN'], 'workerId': [u'A3JGSSDEJ0AWTW'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 12:48:02,012 already_started_exp (1008) {'assignmentId': [u'3M0BCWMB8YO1BBZ3GX2G00VFZ23BWN'], 'workerId': [u'A3JGSSDEJ0AWTW'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 12:50:43 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9124)
+2019-07-25 13:17:43,155 already_started_exp (1008) {'assignmentId': [u'36H9ULYP65M5I8BKE05XU0SSC4RJFN'], 'workerId': [u'AWLT46A9EWTK8'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+[2019-07-25 13:44:30 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9344)
+[2019-07-25 13:44:30 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9117)
+[2019-07-25 13:44:42 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9368)
+[2019-07-25 13:45:02 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9402)
+[2019-07-25 13:45:03 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9401)
+[2019-07-25 13:45:13 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9409)
+[2019-07-25 13:45:33 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9413)
+[2019-07-25 13:45:34 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9417)
+[2019-07-25 13:45:44 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9421)
+[2019-07-25 13:46:05 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9429)
+[2019-07-25 13:47:40 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9433)
+[2019-07-25 13:48:05 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9437)
+[2019-07-25 13:48:17 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9425)
+[2019-07-25 13:48:17 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9441)
+[2019-07-25 13:48:36 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9445)
+[2019-07-25 13:48:49 +0000] [7778] [CRITICAL] WORKER TIMEOUT (pid:9449)
+2019-07-25 13:49:06,778 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3F6KKYWMNET43EO92S2ZZ76O9CSNDY'], 'workerId': [u'AE9PIXLCAFMFX'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 15:49:05,252 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3GNCZX450LF68SXAYXOPDV3DOOYAPH'], 'workerId': [u'A3F51C49T9A34D'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-07-25 16:20:08,721 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'369J354OFG2Z8DS851HQ3HNZREFG6N'], 'workerId': [u'A1O7WUQDKPZGH4'], 'hitId': [u'34O39PNDK80UHVKNR1N8OHRC428RBX'], 'mode': [u'live']}
+2019-08-04 19:15:12,436 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'33JKGHPFYDFJAR2P3RVXOYSW5TDMNG'], 'workerId': [u'A26NGLGGFTATVN'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+[2019-08-04 19:19:08 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6517)
+[2019-08-04 19:19:08 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6518)
+2019-08-04 19:20:50,688 already_did_exp_hit (1010) {'assignmentId': [u'35K3O9HUACY9ABXVO5O13LEEU00FED'], 'workerId': [u'A17K1CHOI773VZ'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+[2019-08-04 19:24:28 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6519)
+[2019-08-04 19:33:14 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6544)
+[2019-08-04 19:33:14 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6552)
+2019-08-04 19:33:25,843 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3WMOAN2SRCI20EWYHJWOBUB9WMPVN6'], 'workerId': [u'A3P0WSCNMY8S6W'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 19:47:56,962 already_started_exp (1008) {'assignmentId': [u'36PW28KO40HEEKGNDP29PK3NXKNAEV'], 'workerId': [u'A17LF7GCAFYMSL'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 20:43:17,095 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3K2755HG5TO4I5JVSADHX3WTUOZFDK'], 'workerId': [u'A2NGMLBFZ3YQP5'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+[2019-08-04 20:46:23 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6557)
+[2019-08-04 20:50:14 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6545)
+[2019-08-04 20:50:32 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6620)
+[2019-08-04 20:50:59 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6556)
+[2019-08-04 20:51:46 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6635)
+[2019-08-04 20:52:20 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6647)
+2019-08-04 21:12:36,850 already_started_exp (1008) {'assignmentId': [u'3MAOD8E57RVU431THYX6ZF8UCXZNX3'], 'workerId': [u'AI1724S19KN4E'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 21:31:55,087 already_did_exp_hit (1010) {'assignmentId': [u'34S9DKFK74AJ48R3MUJ8ITF3E3TNY9'], 'workerId': [u'AGJTJN49ZVPMZ'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 21:36:10,454 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3WMOAN2SRCI20EWYHJWOBUB9WMRNV0'], 'workerId': [u'A20NITCOBY4775'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 21:51:35,755 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3X73LLYYQ2ZXID1ECUFKWTK0O7HHN5'], 'workerId': [u'A2RCYLKY072XXO'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 22:45:42,366 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3YWRV122CTKHKSKU6RX0XBJVTKHU8S'], 'workerId': [u'A20VKYV1BCNFFV'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 22:55:45,345 already_started_exp (1008) {'assignmentId': [u'3TYCR1GOTD4TLYYN635CJ8KGF2YZLB'], 'workerId': [u'A212OY08MFDGU3'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 22:55:56,625 already_started_exp (1008) {'assignmentId': [u'3TYCR1GOTD4TLYYN635CJ8KGF2YZLB'], 'workerId': [u'A212OY08MFDGU3'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 23:20:28,251 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3OS4RQUCRA0B38LBEEMB2D8TR3NFBD'], 'workerId': [u'A3VENK02U0X16N'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-04 23:38:04,037 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3A1COHJ8NKGCF6EA6SQ1EWU5ZCJ8H9'], 'workerId': [u'A1YGF0LJJGB30G'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+[2019-08-05 01:54:37 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6653)
+2019-08-05 04:10:38,655 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'34FNN24DCNUFEJLXIUNMOCFHNJYY51'], 'workerId': [u'A1DK0O56F7GXKB'], 'hitId': [u'31KPKEKW4AYIJK8SLUYPANPZPDZB0H'], 'mode': [u'live']}
+2019-08-05 12:19:48,167 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3X4MXAO0BH90U1OV00I16GZX4TCRWY'], 'workerId': [u'A198MSVO1VTAT5'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+[2019-08-05 12:27:45 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6643)
+[2019-08-05 12:27:45 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:7011)
+2019-08-05 12:43:16,278 already_started_exp (1008) {'assignmentId': [u'3U4J9857OFWYOF65WVOZELVCTG17B0'], 'workerId': [u'A1DS5O8MSI3ZH0'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 13:10:56,143 already_started_exp (1008) {'assignmentId': [u'3SITXWYCNWUS3UCWE8SX8K80V9GXBL'], 'workerId': [u'A1SHLWKA0UH1IS'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+[2019-08-05 13:18:46 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:8045)
+[2019-08-05 13:20:03 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:8046)
+2019-08-05 13:23:12,037 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:37,440 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:37,870 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:38,983 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:40,965 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:42,294 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:44,601 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:45,985 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:48,702 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:50,268 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:53,363 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:23:58,256 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:24:01,146 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:24:37,160 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3IXQG4FA2UJ22YUYBSMJSHMIO6P9BE'], 'workerId': [u'A2I7K3ZNGO5IJP'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 13:24:41,104 already_did_exp_hit (1010) {'assignmentId': [u'3NL0RFNU0G82YVSG0A3LACUSP8K4KX'], 'workerId': [u'AGJTJN49ZVPMZ'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 13:24:44,758 Exception on /gen204 [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/psiturk/experiment.py", line 745, in regularpage
+    return render_template(pagename)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/anaconda3/envs/myenv/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: gen204
+2019-08-05 13:33:35,360 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3GNCZX450J8IBB5DM3IKJW2RBSLPAT'], 'workerId': [u'A53WVYONK6B9Q'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 13:42:57,121 already_started_exp (1008) {'assignmentId': [u'3GNCZX450J8IBB5DM3IKJW2RBSLPAT'], 'workerId': [u'A53WVYONK6B9Q'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 13:43:21,501 already_started_exp (1008) {'assignmentId': [u'3GNCZX450J8IBB5DM3IKJW2RBSLPAT'], 'workerId': [u'A53WVYONK6B9Q'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 14:01:15,457 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3S4AW7T80C3DI1AYLAFMPC77E8P4L0'], 'workerId': [u'A30UE6DWFNUCWX'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+[2019-08-05 14:06:33 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:6639)
+2019-08-05 14:33:59,159 already_started_exp (1008) {'assignmentId': [u'3WMINLGALCOZHMW9HYWEZW3KC97AC1'], 'workerId': [u'A38Z5T2J8MFBL1'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 14:34:17,893 already_started_exp (1008) {'assignmentId': [u'3WMINLGALCOZHMW9HYWEZW3KC97AC1'], 'workerId': [u'A38Z5T2J8MFBL1'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 15:13:57,859 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3KV0LJBBH364PPUHWYCEXIX66R5RME'], 'workerId': [u'A15VRRHQCLJHC8'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 15:25:27,454 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3S3AMIZX3VQXFTZL18NGPXBQXDGCDJ'], 'workerId': [u'A1KXESMB9K7504'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+[2019-08-05 15:34:30 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:8098)
+2019-08-05 16:14:17,252 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3A1COHJ8NKGCF6EA6SQ1EWU5ZESH8V'], 'workerId': [u'A1IEAOCJNSPVRX'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+[2019-08-05 16:22:20 +0000] [6513] [CRITICAL] WORKER TIMEOUT (pid:8362)
+2019-08-05 16:34:48,600 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'39N5ACM9HF846SV8UX4KN1R75BHP9U'], 'workerId': [u'A1EP3XESXAG0EP'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 17:03:43,619 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'37ZHEEHM6X7TLK2SH29TW2X05OO739'], 'workerId': [u'A359K1UO9OLEW5'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 17:26:36,054 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'30LB5CDZNDVGO291HAJTLOSSC7XZ0I'], 'workerId': [u'A3TT7QV49VCZJ9'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 18:12:46,824 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'30LB5CDZNDVGO291HAJTLOSSC7XZ0I'], 'workerId': [u'A2H1QUGX0SOUMH'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 19:17:31,286 already_started_exp (1008) {'assignmentId': [u'3U088ZLJVLECU74W6NZMMKYAV5D0WD'], 'workerId': [u'A2NTF7F9IQNBJE'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 20:40:37,572 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3YJ6NA41JC1TC48HG9VXCV5A1IRPJR'], 'workerId': [u'AMDKQKEILEP2N'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 21:34:32,729 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3TU5ZICBREMPSZDDPIDVNAM6Q1MQ8Y'], 'workerId': [u'A19H44LQJ0TEXF'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-05 21:53:00,239 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'32M8BPYGAU7R4GVCV8KA6LCINCLIGA'], 'workerId': [u'A37VBAMFEQKJO4'], 'hitId': [u'3UOMW19E6DR0OWMZW00W22R8O7FC5H'], 'mode': [u'live']}
+2019-08-06 05:02:00,275 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3Z2R0DQ0JIZP9HLJ0A9UJ2KPL1CE2J'], 'workerId': [u'A2N0RWR3JTVBM0'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:13:30,280 already_started_exp (1008) {'assignmentId': [u'3Z2R0DQ0JIZP9HLJ0A9UJ2KPL1CE2J'], 'workerId': [u'A2N0RWR3JTVBM0'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:13:30,360 already_started_exp (1008) {'assignmentId': [u'3Z2R0DQ0JIZP9HLJ0A9UJ2KPL1CE2J'], 'workerId': [u'A2N0RWR3JTVBM0'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:17:25,092 already_started_exp (1008) {'assignmentId': [u'3Z2R0DQ0JIZP9HLJ0A9UJ2KPL1CE2J'], 'workerId': [u'A2N0RWR3JTVBM0'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:19:48,710 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3LRLIPTPERUH0K8X9BDCNFGSHM1AK7'], 'workerId': [u'AZSB87DCJL4QB'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:30:14,765 already_started_exp (1008) {'assignmentId': [u'3DUZQ9U6SN9ZGRO3PFDAAOLFJQESV6'], 'workerId': [u'A1PF01FF85HUY4'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 05:30:45 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11363)
+[2019-08-06 05:30:45 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11365)
+2019-08-06 05:47:50,756 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3JAOYWH7VJPEF7GA25BD6KIN04S9LY'], 'workerId': [u'A3I0ITCG0HKFFZ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:55:52,415 already_started_exp (1008) {'assignmentId': [u'3MRNMEIQW6RQIXTRELGFSG1DRP3DLF'], 'workerId': [u'A1E1PEJCLK9OAJ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:56:09,353 already_started_exp (1008) {'assignmentId': [u'3MRNMEIQW6RQIXTRELGFSG1DRP3DLF'], 'workerId': [u'A1E1PEJCLK9OAJ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 05:56:41,602 already_started_exp (1008) {'assignmentId': [u'3MRNMEIQW6RQIXTRELGFSG1DRP3DLF'], 'workerId': [u'A1E1PEJCLK9OAJ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 06:56:08,579 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'308Q0PEVB9YCP684H2E0E4QVJ0T9IF'], 'workerId': [u'A3MD3CC58W6WWQ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 06:58:42,778 already_did_exp_hit (1010) {'assignmentId': [u'3L4D84MIL0D1ZNATXWNS3M3JFS8JH9'], 'workerId': [u'A1O7NHQ5GTT78D'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 07:08:14 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11410)
+2019-08-06 07:15:42,464 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3T111IHZ5FBPI5BN7P89SWRM6WW9R3'], 'workerId': [u'A1U3OIZTWRI8JD'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 07:25:58,805 already_started_exp (1008) {'assignmentId': [u'3R5F3LQFV351RJ1KJVL4BPOAAC1OZP'], 'workerId': [u'AT0XK1SBXZZVZ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 07:26:18,580 already_started_exp (1008) {'assignmentId': [u'3R5F3LQFV351RJ1KJVL4BPOAAC1OZP'], 'workerId': [u'AT0XK1SBXZZVZ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 07:38:52 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11668)
+2019-08-06 07:52:25,904 already_did_exp_hit (1010) {'assignmentId': [u'3QAPZX2QN5YQIR6PS3AFYDILR0O207'], 'workerId': [u'AGJTJN49ZVPMZ'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 08:21:43,824 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3ZAZR5XV0230IU4HTQCDGPUTLZOCZO'], 'workerId': [u'A240RKZ8GYB5NF'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 08:35:20,727 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3018Q3ZVOJB3NOLSZVM9OR26CFLARS'], 'workerId': [u'A3KU7DD8Q1NQ7P'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 08:58:27,168 already_started_exp (1008) {'assignmentId': [u'3U4J9857OFWYOF65WVOZELVCTLDB7Q'], 'workerId': [u'A25APDIPK95OHG'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 08:58:39,435 already_started_exp (1008) {'assignmentId': [u'3U4J9857OFWYOF65WVOZELVCTLDB7Q'], 'workerId': [u'A25APDIPK95OHG'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:00:03,376 already_started_exp (1008) {'assignmentId': [u'386CSBG1O072OLUPW3GX3WQFKAV6QZ'], 'workerId': [u'A34HWABNHGW5OX'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:01:43,482 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3I2PTA7R3UF9N0FEY7AYDFVXL5FKQI'], 'workerId': [u'AWJ5RYXJCSGV0'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:01:53,165 already_did_exp_hit (1010) {'assignmentId': [u'339ANSOTR6NW62RVLZ5P4D4BUVYIKD'], 'workerId': [u'A364CZ890UVP15'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:23:50,535 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'326O153BMJJCCRJZXZTBFLBTITVDEN'], 'workerId': [u'A3Q77FURO5L7L1'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:28:08,106 already_started_exp (1008) {'assignmentId': [u'3TGOYF991Y7FIPR79UY5T31KQHKUUV'], 'workerId': [u'AD0MEKOW4FZWS'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:29:20,608 already_started_exp (1008) {'assignmentId': [u'3TGOYF991Y7FIPR79UY5T31KQHKUUV'], 'workerId': [u'AD0MEKOW4FZWS'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:31:08,386 already_started_exp (1008) {'assignmentId': [u'3TGOYF991Y7FIPR79UY5T31KQHKUUV'], 'workerId': [u'AD0MEKOW4FZWS'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 09:34:57,417 already_did_exp_hit (1010) {'assignmentId': [u'3OB0CAO74IARUC5SJWOVD9I7SXSYHV'], 'workerId': [u'AMYHVU1VHLS7B'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 09:41:54 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11692)
+2019-08-06 11:11:09,207 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'379J5II41P1VA37RAGRZYYJYR22LEG'], 'workerId': [u'A3P27SOEKGQI9C'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 11:43:50,399 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3DQQ64TANH6FIO8GN8EC1LZI3G2PWS'], 'workerId': [u'AMVBT3XDCQBHI'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 11:45:44 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11409)
+2019-08-06 12:07:18,399 already_started_exp (1008) {'assignmentId': [u'3E13VNJ1NOGU0159DPZ7ZY8CLP31IY'], 'workerId': [u'A25R2OI9L2Q1OW'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 12:07:34,666 already_started_exp (1008) {'assignmentId': [u'3E13VNJ1NOGU0159DPZ7ZY8CLP31IY'], 'workerId': [u'A25R2OI9L2Q1OW'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 12:11:53,827 already_started_exp (1008) {'assignmentId': [u'3NGI5ARFTUQMHNSDQKPR8V9O7351PH'], 'workerId': [u'A1HAOXJVRYT43K'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 12:14:34,401 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3I0BTBYZAY6GJCZWLOHA7HJQ6G3Y06'], 'workerId': [u'AS1IHY5NZ4V70'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 12:23:45,942 already_started_exp (1008) {'assignmentId': [u'31HQ4X3T3TVWKMC9BBB4NFNDSTKLSQ'], 'workerId': [u'A1G0TVA7CGYM6U'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 12:39:27,654 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'31HQ4X3T3TVWKMC9BBB4NFNDSTKLSQ'], 'workerId': [u'AHZPLJY79BXIE'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 13:45:21,428 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3W92K5RLWV2YAPQSDJ02HDBN57E5VR'], 'workerId': [u'A3R20AEJRD29WW'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+[2019-08-06 14:06:59 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11854)
+[2019-08-06 14:07:24 +0000] [11359] [CRITICAL] WORKER TIMEOUT (pid:11364)
+2019-08-06 15:05:54,579 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3G2UL9A02EZSI3PA047R359KFKM67K'], 'workerId': [u'A1Y82LKWQQP90M'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 20:17:20,411 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3QXNC7EIPJG1IBRODCPU80QZX9O902'], 'workerId': [u'A1KHHLRJ9S0MW8'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-06 21:06:07,923 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3SUWZRL0MZYDRI4KNCLX9F111A7E61'], 'workerId': [u'A2P53AN2M8IWFP'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
+2019-08-07 11:52:43,480 hit_not_registered_with_ad_server (1018) {'assignmentId': [u'3137ONMDKHQFOBTQZPUJL6EQVRUGEV'], 'workerId': [u'A1YBZWXXW358IF'], 'hitId': [u'3K2CEDRACBMFIK9GALC88E2YYPBMT8'], 'mode': [u'live']}
