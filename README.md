@@ -15,9 +15,9 @@ Context reasoning is critical in a wide variety of applications where current in
 |:---:|:---:|:---:|:---:|
 | Stimulus | Human Clicks | Clicks predicted by model | Attention predicted by model | 
 
-## Environment
+## Pre-requisite
 
-The code has been successfully tested in Ubuntu 18.04 with one GPU (NVIDA RTX 2080 Ti). It requires the following:
+The code has been successfully tested in Ubuntu 18.04 with one GPU (NVIDIA RTX 2080 Ti). It requires the following:
 - PyTorch = 1.1.0 
 - python = 2.7
 - CUDA = 10.2
@@ -49,6 +49,25 @@ git clone https://github.com/kreimanlab/lift-the-flap-clicknet.git
 
 Download our pre-trained model from [HERE](https://drive.google.com/open?id=1vNczaSc2MbuZ2OqqO2-BeENlPZFrZ_fL) and place the downloaded model ```checkpoint_2.pth.tar``` in folder ```/src/Models/```
 
+## Quick Start
 
+Evaluate our pre-trained model on one image ```Datasets/MSCOCO/testColor_img/trial_38.jpg``` using the following command:
+```
+python eval.py
+```
+Train our model from the start using the following command:
+```
+python train.py
+```
+**NOTE** There is ONLY one training image in ```Datasets/MSCOCO/trainColor_img/``` and ```Datasets/MSCOCO/trainColor_binimg/``` for demonstration purpose. Continue to read the following sections if one wants to formally train the model using the full training set and evaluate the model using the full test set.
 
+## Datasets
+
+### Training
+
+One should download the full training set (images and their corresponding binary masks (indicating the missing target location) from [HERE](https://drive.google.com/open?id=1M_pcW0oyNpPPvyC929A0PaaspzNjFzYQ), unzip and place them in ```Datasets/MSCOCO/trainColor_img/``` and ```Datasets/MSCOCO/trainColor_binimg/```. 
+
+### Testing
+
+In addition, update the 
 
