@@ -47,7 +47,7 @@ Download our repository:
 git clone https://github.com/kreimanlab/lift-the-flap-clicknet.git
 ```
 
-Download our pre-trained model from [HERE](https://drive.google.com/open?id=1vNczaSc2MbuZ2OqqO2-BeENlPZFrZ_fL) and place the downloaded model ```checkpoint_2.pth.tar``` in folder ```/src/Models/```
+Download our pre-trained model from [HERE](https://drive.google.com/open?id=138Wn2Lmm2gBj5V_kmdN-GYxLMUUrq6os) and place the downloaded model ```checkpoint_2.pth.tar``` in folder ```/src/Models/```
 
 ## Quick Start
 
@@ -55,19 +55,32 @@ Evaluate our pre-trained model on one image ```Datasets/MSCOCO/testColor_img/tri
 ```
 python eval.py
 ```
+It outputs a classification vector containing the probability of 55 object categories, the click locations, and the attention maps and saves it as ```/src/results/trial_1.mat```. Open MATLAB and visualize the results by running the following two scripts: ```eval/oursModel_ProcessMouseClick_NoAlpha.m``` and ```eval/Plot_qualatative_model.m```.
+
 Train our model from the start using the following command:
 ```
 python train.py
 ```
-**NOTE** There is ONLY one training image in ```Datasets/MSCOCO/trainColor_img/``` and ```Datasets/MSCOCO/trainColor_binimg/``` for demonstration purpose. Continue to read the following sections if one wants to formally train the model using the full training set and evaluate the model using the full test set.
+**NOTE** There is ONLY one training image in ```Datasets/MSCOCO/trainColor_img/``` and ```Datasets/MSCOCO/trainColor_binimg/``` for demonstration purpose. Continue to read the following sections if one wants to formally train the model using the FULL training set and evaluate the model using the FULL test set.
 
 ## Datasets
 
-### Training
+### Training and testing sets
 
-One should download the full training set (images and their corresponding binary masks (indicating the missing target location) from [HERE](https://drive.google.com/open?id=1M_pcW0oyNpPPvyC929A0PaaspzNjFzYQ), unzip and place them in ```Datasets/MSCOCO/trainColor_img/``` and ```Datasets/MSCOCO/trainColor_binimg/```. 
+One should download the full training and test set (images and their corresponding binary masks (indicating the missing target location)) from [HERE](https://drive.google.com/open?id=1M_pcW0oyNpPPvyC929A0PaaspzNjFzYQ), unzip and place them in ```Datasets/MSCOCO/``` folder.  
 
-### Testing
+### Datalist to load images
 
-In addition, update the 
+One should download the list of image names and their corresponding class labels from [HERE](https://drive.google.com/open?id=1d3VWtMus6U1jzB4fTDr3-BIgs4byhJX4), unzip and place them in ```Datalist``` folder. 
+
+## Training and Testing
+
+Run the following script to train:
+```
+python train.py
+```
+Download the full evaluation codes from [HERE](https://drive.google.com/open?id=15i7l1k3Lulj8jGEM8cKZKG0pBphhu3IP) to replicate the results in our paper.
+
+## Human Mouse Clicking Experiments on Amazon Mechanical Turk 
+
 
