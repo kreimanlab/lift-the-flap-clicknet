@@ -30,11 +30,24 @@ Dependencies:
 - matplotlib
 - skimage
 
-Refer to [link](https://pytorch.org/get-started/locally/) for Pytorch installation. 
-
 Refer to [link](https://www.anaconda.com/distribution/) for Anaconda installation.  
 
+After Anaconda installation, create a conda environment:
+```
+conda create -n pytorch27 python=2.7
+```
+Activate the conda environment:
+```
+conda activate pytorch27
+```
+In the conda environment, refer to [link](https://pytorch.org/get-started/locally/) for Pytorch installation.
 
+Download our repository:
+```
+git clone https://github.com/kreimanlab/lift-the-flap-clicknet.git
+```
+
+Download our pre-trained model from [HERE](https://drive.google.com/open?id=1vNczaSc2MbuZ2OqqO2-BeENlPZFrZ_fL) and place the downloaded model ```checkpoint_2.pth.tar``` in folder ```/src/Models/```
 
 
 
