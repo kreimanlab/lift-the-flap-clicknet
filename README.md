@@ -119,13 +119,15 @@ Refer to [HERE](https://drive.google.com/open?id=1FblDG7OuWXVRfWo0Djb5eDiYgKqnk9
 
 ### Running the experiment locally
 
-Download the source codes from [HERE](https://drive.google.com/open?id=147-NY35j3qzGu9Hilsm0kltrlqKJcTV8). Unzip, open a command window, navigate to the folder, and run the experiment in debug mode:
+Download the source codes from [HERE](https://drive.google.com/open?id=147-NY35j3qzGu9Hilsm0kltrlqKJcTV8). Unzip, replace ```mturk/expF_click``` folder, open a command window, navigate to the folder, and run the experiment in debug mode:
 ```
-cd expF_click
+cd mturk/expF_click
 psiturk
 server on
 debug
 ```
+**NOTE** You can run the source codes directly downloaded in this github repository. However, there is only ONE stimulus image in ```mturk/expF_click/static/data/expF_click_data``` and ```mturk/expF_click/static/data/expF_click_mask_data``` for demonstration purpose. 
+
 We now list a detailed description of important source files:
 - expF_click.db: a SQL database storing online subjects' mouse clicking data. See evaluation codes above for converting db file to MATLAB struct for result analysis.
 - instructions/instruct-1.html: show instructions to the human subjects
