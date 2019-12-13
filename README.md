@@ -90,7 +90,7 @@ Download the full MATLAB evaluation codes from [HERE](https://drive.google.com/o
 ## Human Mouse Clicking Experiments on Amazon Mechanical Turk 
 
 Below is an animation for human mouse clicking experiments on Mturk:
-
+![Human mouse click on Mturk](gif/mturk.gif)
 
 ### Installation of Psiturk
 
