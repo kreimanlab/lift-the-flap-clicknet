@@ -15,7 +15,7 @@ Context reasoning is critical in a wide variety of applications where current in
 |:---:|:---:|:---:|:---:|
 | Stimulus | Human Clicks | Clicks predicted by model | Attention predicted by model | 
 
-## Computational Models
+## Computational Model - ClickNet
 
 ### Pre-requisite
 
