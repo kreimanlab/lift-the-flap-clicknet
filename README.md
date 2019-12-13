@@ -115,7 +115,7 @@ Install psiturk using pip:
 ```
 pip install psiturk
 ```
-Refer to [HERE](https://drive.google.com/open?id=1FblDG7OuWXVRfWo0Djb5eDiYgKqnk9wU) for detailed instruction on setting up psiturk account.
+Refer to [HERE](https://drive.google.com/open?id=1FblDG7OuWXVRfWo0Djb5eDiYgKqnk9wU) for detailed instruction on setting up psiturk key and paste them in .psiturkconfig.
 
 ### Running the experiment locally
 
@@ -126,8 +126,11 @@ psiturk
 server on
 debug
 ```
-
 We now list a detailed description of important source files:
+- expF_click.db: a SQL database storing online subjects' mouse clicking data. See evaluation codes above for converting db file to MATLAB struct for result analysis.
+- instructions/instruct-1.html: show instructions to the human subjects
+- static/js/task.js: main file to load stimulus and run the experiment
+- static/js/bubbleview.js: all supporting functions to put multiple canvas on the original image and create bubble views
 
 ### Launching the experiment online using Elastic Cloud Computing (EC2) in Amazon Web Services (AWS)
 
