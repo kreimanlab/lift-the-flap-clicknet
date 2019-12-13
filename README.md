@@ -32,8 +32,11 @@ Dependencies:
 - matplotlib
 - skimage
 
-Refer to [link](https://www.anaconda.com/distribution/) for Anaconda installation.  
-
+Refer to [link](https://www.anaconda.com/distribution/) for Anaconda installation. Alternatively, execute the following command:
+```
+curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+bash Anaconda3-2019.03-Linux-x86_64.sh
+```
 After Anaconda installation, create a conda environment:
 ```
 conda create -n pytorch27 python=2.7
@@ -89,11 +92,51 @@ Download the full MATLAB evaluation codes from [HERE](https://drive.google.com/o
 
 ## Human Mouse Clicking Experiments on Amazon Mechanical Turk 
 
-Below is an animation for human mouse clicking experiments on Mturk:
-![Human mouse click on Mturk](gif/mturk.gif)
+Below is an animation for human mouse clicking experiments on Mturk. We designed the Mturk experiments using [Psiturk](https://psiturk.org/) which requires javascripts, HTML and python 2.7. The source codes have been successfully tested on MAC OSX and Ubuntu 18.04. See sections below for installation, running the experiments locally and launching the experiments online.
+
+![Human mouse click on Mturk](gif/mturk.gif) 
 
 ### Installation of Psiturk
 
+Refer to [link](https://www.anaconda.com/distribution/) for Anaconda installation. Alternatively, execute the following command:
+```
+curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+bash Anaconda3-2019.03-Linux-x86_64.sh
+```
+After Anaconda installation, create a conda environment:
+```
+conda create -n mturkenv python=2.7
+```
+Activate the conda environment:
+```
+conda activate mturkenv
+```
+Install psiturk using pip:
+```
+pip install psiturk
+```
+Refer to [HERE](https://drive.google.com/open?id=1FblDG7OuWXVRfWo0Djb5eDiYgKqnk9wU) for detailed instruction on setting up psiturk account.
 
-### Running Mturk Experiments using Elastic Cloud Computing (EC2) 
+### Running the experiment locally
 
+Download the source codes from [HERE](https://drive.google.com/open?id=147-NY35j3qzGu9Hilsm0kltrlqKJcTV8). Unzip, open a command window, navigate to the folder, and run the experiment in debug mode:
+```
+cd expF_click
+psiturk
+server on
+debug
+```
+
+We now list a detailed description of important source files:
+
+### Launching the experiment online using Elastic Cloud Computing (EC2) in Amazon Web Services (AWS)
+
+Copy the downloaded source codes to EC2 server and run the psiturk experiment online. Refer to [HERE](https://drive.google.com/open?id=1FblDG7OuWXVRfWo0Djb5eDiYgKqnk9wU) for detailed instruction
+
+## Notes
+
+The source code is for illustration purpose only. Path reconfigurations may be needed to run some MATLAB scripts. We do not provide techinical supports but we would be happy to discuss about SCIENCE!
+
+## License
+
+See [Kreiman lab](http://klab.tch.harvard.edu/code/license_agreement.pdf) for license agreements before downloading and using our source codes and datasets.
